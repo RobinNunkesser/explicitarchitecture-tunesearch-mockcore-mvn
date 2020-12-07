@@ -13,7 +13,7 @@ plugins {
 }
 
 group 'de.hshl.isd'
-version '0.0.1'
+version '0.0.2'
 
 repositories {
     jcenter()
@@ -23,7 +23,7 @@ repositories {
 dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
     implementation "de.hshl.isd:explicitarchitecture:0.0.1"
-    implementation "de.hshl.isd:explicitarchitecture-tunesearch-core-ports:0.0.1"
+    implementation "de.hshl.isd:explicitarchitecture-tunesearch-core-ports:0.0.2"
     testCompile group: 'junit', name: 'junit', version: '4.12'
 }
 
@@ -33,7 +33,7 @@ publish {
     userOrg = 'robinnunkesser'
     groupId = 'de.hshl.isd'
     artifactId = 'explicitarchitecture-tunesearch-mockcore'
-    publishVersion = '0.0.1'
+    publishVersion = '0.0.2'
     desc = 'May be used for an example project for Herberto Graça\'s Explicit Architecture.'
     website = 'https://github.com/RobinNunkesser/explicitarchitecture-tunesearch-mockcore-bintray'
 }
