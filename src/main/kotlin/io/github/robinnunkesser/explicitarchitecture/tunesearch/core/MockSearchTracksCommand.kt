@@ -1,9 +1,9 @@
-package de.hshl.isd.explicitarchitecture.tunesearch.core
+package io.github.robinnunkesser.explicitarchitecture.tunesearch.core
 
-import de.hshl.isd.explicitarchitecture.tunesearch.core.ports.CollectionEntity
-import de.hshl.isd.explicitarchitecture.tunesearch.core.ports.SearchTracksCommand
-import de.hshl.isd.explicitarchitecture.tunesearch.core.ports.SearchTracksDTO
-import de.hshl.isd.explicitarchitecture.tunesearch.core.ports.TrackEntity
+import io.github.robinnunkesser.explicitarchitecture.tunesearch.core.ports.CollectionEntity
+import io.github.robinnunkesser.explicitarchitecture.tunesearch.core.ports.SearchTracksCommand
+import io.github.robinnunkesser.explicitarchitecture.tunesearch.core.ports.SearchTracksDTO
+import io.github.robinnunkesser.explicitarchitecture.tunesearch.core.ports.TrackEntity
 
 class MockSearchTracksCommand : SearchTracksCommand {
     val mock = listOf(
